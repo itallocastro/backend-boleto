@@ -1,0 +1,8 @@
+version: "3"
+services:
+  node_api:
+    container_name: api_test
+    build:
+      context: .
+    ports:
+      - "8080:8080"
