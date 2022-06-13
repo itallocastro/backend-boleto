@@ -1,5 +1,5 @@
 import {BAR_CODE_TYPE} from "../utils/validation.utils.js";
-
+import formatDate from "../utils/formatDate.js";
 const getExpirationDateBankSlip = (field) => {
     const days = field.slice(5, 9);
     if(days[0] === '0') {
@@ -8,7 +8,7 @@ const getExpirationDateBankSlip = (field) => {
     const baseDate = new Date('10-07-1997');
     const expirationDate = new Date(baseDate.getTime() + (days * 24 * 60 * 60 * 1000)); // Convert days to milliseconds
 
-    return expirationDate;
+    return formatDate(expirationDate);
 }
 
 const getExpirationDateTitleAndAgreement = (field) => {
