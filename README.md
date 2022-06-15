@@ -4,7 +4,7 @@ e pagamento de concessionárias, verificando se a mesma é válida ou não. Send
 possuindo valor e/ou data de vencimento ter o retorno desses dados.
 Utilizando o método GET o backend deverá ser acessado dessa forma: http://localhost:8080/boleto/xxxxxx
 ## Execução via docker
-Você deve clonar o repositório `git clone https://github.com/itallocastro/teste-backend.git`
+Você deve clonar o repositório `git clone https://github.com/itallocastro/backend-boleto.git`
 <br>
 <br>
 Depois você deve acessar a pasta do projeto e rodar: `docker-compose up`
