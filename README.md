@@ -1,4 +1,8 @@
-# Backend Test
+# Backend Boleto
+Queremos poder através da aplicação consultar linhas digitáveis de boleto de título bancário
+e pagamento de concessionárias, verificando se a mesma é válida ou não. Sendo válida e
+possuindo valor e/ou data de vencimento ter o retorno desses dados.
+Utilizando o método GET o backend deverá ser acessado dessa forma: http://localhost:8080/boleto/xxxxxx
 ## Execução via docker
 Você deve clonar o repositório `git clone https://github.com/itallocastro/teste-backend.git`
 <br>
